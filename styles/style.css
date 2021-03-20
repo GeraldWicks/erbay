@@ -1,0 +1,111 @@
+body {
+  background-color: white;
+}
+
+.about_div
+{
+  background-color: #5C307F;
+  text-align: center;
+  height: 34rem;
+  color: white;
+  padding-top: 10%;
+}
+
+.about_anchor
+{
+  color: white;
+  background-color: #FF8100;
+  border: 1px solid #FF8100;
+  padding: 0%;
+  margin: 0%;
+  margin-top: 2rem;;
+  border-radius: 4%;
+  width: 5rem;
+}
+
+.about_anchor:hover
+{
+  color: black;
+  font-weight: bold;
+  border: 1px solid #FF8100;
+  background-color: white;
+}
+
+.btn-warning {
+  color: white;
+  background-color: #FF8100;
+}
+
+.btn-warning:hover {
+  background-color: #f7b778;
+}
+
+.container-fluid {
+  border-bottom: 2px solid black;
+}
+
+.h5_department:hover
+{
+  cursor: auto;
+}
+
+
+.insert_div {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.insert_div input {
+  margin-bottom: 0.5rem;
+}
+
+.insert_div h3 {
+  border-bottom: 2px solid #5C307F;
+}
+
+.image_input {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  border: 1px solid #FF8100;
+  border-radius: 2%;
+}
+
+.image_input:hover {
+  border: 1px solid #FF8100;
+  background-color: #FF8100;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.product_div {
+  text-align: center;
+}
+
+.sell_now_btn {
+  border: 1px solid #FF8100;
+  background-color: #FF8100;
+  color: white;
+  border-radius: 4%;
+}
+
+.sell_now_btn:hover
+{
+  border: 1px solid #FF8100;
+  background-color: white;
+}
+
+#sell_now_anchor
+{
+  color: white;
+}
+
+#sell_now_anchor:hover
+{
+  color: black;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */

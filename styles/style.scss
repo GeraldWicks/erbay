@@ -1,0 +1,87 @@
+//OLX COLORS:
+$purple_color : #5C307F;
+$yellow_collor : #BEC100;
+$orange_collor : #FF8100;
+
+@mixin centralized()
+{
+    text-align: center;
+}
+
+body
+{
+    background-color:white;
+}
+
+
+.btn-warning
+{
+    color: white;
+    background-color: $orange_collor;
+
+    &:hover
+    {
+        background-color: #f7b778;
+    }
+}
+
+.container-fluid
+{
+    border-bottom: 2px solid black;
+}
+
+.insert_div
+{
+    @include centralized();
+
+    margin-left: 25%;
+    margin-right: 25%;
+
+    input
+    {
+        margin-bottom: 0.5rem;
+    }
+
+    h3
+    {
+        border-bottom: 2px solid $purple_color;
+    }
+}
+
+.image_input
+{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    border: 1px solid $orange_collor;
+    border-radius: 2%;
+
+    &:hover
+    {
+        border: 1px solid $orange_collor;
+        background-color: $orange_collor;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+
+.product_div
+{
+    @include centralized();
+}
+
+.sell_now_btn
+{
+    border: 1px solid $orange_collor;
+    background-color: $orange_collor;
+    color: white;
+    border-radius: 4%;
+
+    &:hover
+    {
+        border: 1px solid $orange_collor;
+        background-color: $white;
+    }
+}
