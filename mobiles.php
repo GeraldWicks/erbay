@@ -65,7 +65,8 @@
   <?php
 
     //connect to the databse 
-    $db = mysqli_connect('localhost', 'root', '', 'fake_olx');  
+    //$db = mysqli_connect('localhost', 'root', '', 'fake_olx');
+    $db = mysqli_connect('remotemysql.com', 'LuHzVLNHtn', 'vSBdEvMc5C', 'LuHzVLNHtn');     
     $products = mysqli_query ($db, "SELECT * FROM products");
  
 

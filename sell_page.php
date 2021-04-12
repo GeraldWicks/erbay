@@ -97,7 +97,7 @@
         <label for="mobiles">Mobiles</label><br>
         <input type="radio" id="cars" name="department" value="cars">
         <label for="cars">Cars</label><br>
-        <input type="radio" id="others" name="department" value="others" checked="trur">
+        <input type="radio" id="others" name="department" value="others" checked="true">
         <label for="others">Others</label><br>
       </div>
 
